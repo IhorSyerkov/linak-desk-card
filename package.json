@@ -1,0 +1,69 @@
+{
+  "name": "linak-desk-card",
+  "version": "1.0.1",
+  "description": "Home Assistant Lovelace card for Linak desks",
+  "keywords": [
+    "home-assistant",
+    "homeassistant",
+    "hass",
+    "lovelace",
+    "custom-cards",
+    "linak-desk-card"
+  ],
+  "module": "dist/linak-desk-card.js",
+  "repository": "git@github.com:IhorSyerkov/linak-desk-card.git",
+  "author": "Ihor Syerkov <serkov.ihor@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "custom-card-helpers": "^1.6.8",
+    "home-assistant-js-websocket": "^5.7.0",
+    "lit-element": "^2.4.0",
+    "lit-html": "^1.3.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.2",
+    "@rollup/plugin-image": "^2.0.6",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "@rollup/plugin-typescript": "^8.1.1",
+    "@semantic-release/git": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "rollup": "^2.38.5",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-minify-html-literals": "^1.2.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "semantic-release": "^17.3.8",
+    "typescript": "^4.1.4"
+  },
+  "scripts": {
+    "start": "rollup -c --watch",
+    "build": "npm run lint && rollup -c",
+    "lint": "eslint src/*.ts"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "dist/linak-desk-card.js",
+              "label": "linak-desk-card.js"
+            }
+          ]
+        }
+      ],
+      "@semantic-release/git"
+    ]
+  }
+}

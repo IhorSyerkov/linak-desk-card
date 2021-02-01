@@ -1,0 +1,9 @@
+resources:
+  - url: http://127.0.0.1:5000/linak-desk-card.js
+    type: module
+views:
+  - cards:
+      - type: custom:linak-desk-card
+        name: LinakDesk Card Development
+        entity: cover.desk
+        test_gui: true
