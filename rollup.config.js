@@ -5,6 +5,7 @@ import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import serve from 'rollup-plugin-serve';
 import json from '@rollup/plugin-json';
+import image from '@rollup/plugin-image';
 
 const dev = process.env.ROLLUP_WATCH;
 
@@ -32,7 +33,7 @@ const plugins = [
 
 export default [
   {
-    input: 'src/boilerplate-card.ts',
+    input: 'src/linak-desk-card.ts',
     output: {
       dir: 'dist',
       format: 'es',
