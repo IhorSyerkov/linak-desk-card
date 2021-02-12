@@ -107,7 +107,7 @@ export class LinakDeskCard extends LitElement {
     return html`
       <ha-card .header=${this.config.name}>
         ${this.config.connection_sensor ? html`<div class="connection">
-          ${localize(this.connected ? 'common.connected' : 'common.disconnected')}
+          ${localize(this.connected ? 'status.connected' : 'status.disconnected')}
           <div class="indicator ${this.connected ? 'connected' : 'disconnected'}" ></div>
         </div>` : html``}
         <div class="preview">
