@@ -1,12 +1,14 @@
 # LinakDesk Card by [@IhorSyerkov](https://github.com/IhorSyerkov)
 
-Home Assistant Lovelace Card for controlling desks based on linak bluetooth controller.
+[![hacs][hacs-image]][hacs-url]
+
+> [Home Assistant][home-assistant] Lovelace Card for controlling desks based on linak bluetooth controller.
 
 Designed to work with https://github.com/j5lien/esphome-idasen-desk-controller
 
 ## HACS
- 
- - Add `https://github.com/IhorSyerkov/linak-desk-card` as custom repository to the [HACS](https://hacs.xyz/)
+
+- Add `https://github.com/IhorSyerkov/linak-desk-card` as custom repository to the [HACS](https://hacs.xyz/)
 
 ## Config
 
@@ -64,3 +66,8 @@ This card supports translations. Please, help to add more translations and impro
 ## License
 
 MIT ©
+
+[home-assistant]: https://www.home-assistant.io/
+[hacs]: https://hacs.xyz
+[hacs-url]: https://github.com/custom-components/hacs
+[hacs-image]: https://img.shields.io/badge/hacs-default-orange.svg?style=flat-square
