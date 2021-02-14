@@ -10,7 +10,7 @@ Designed to work with https://github.com/j5lien/esphome-idasen-desk-controller
 
 ## HACS
 
-This card is available in [HACS][https://hacs.xyz/] (Home Assistant Community Store).
+This card is available in [HACS](https://hacs.xyz/) (Home Assistant Community Store).
 Just search for `Linak Desk Card` in plugins tab.
 
 ## Config
