@@ -1,0 +1,23 @@
+{
+  "common": {
+    "version": "Version",
+    "name":"Carte bureau Linak",
+    "description": "Carte permettant de contrôler la hauteur du bureau",
+    "invalid_configuration": "Configuration invalide",
+    "desk_and_height_required": "Le bureau et la hauteur sont requis"
+  },
+  "editor": {
+    "name": "Nom (Optionel)",
+    "desk":"Entité du bureau (Requis)",
+    "height_sensor":"Capteur de hauteur (Requis)",
+    "connection_sensor":"Capteur de connexion (Requis)",
+    "moving_sensor":"Capteur de hauteur (Requis)",
+    "min_height":"Hauteur minimale",
+    "max_height":"Hauteur maximale",
+    "presets":"Réglages"
+  },
+  "status": {
+    "connected": "Connecté",
+    "disconnected": "Déconnecté"
+  }
+}
