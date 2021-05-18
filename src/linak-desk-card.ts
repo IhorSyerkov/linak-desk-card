@@ -32,7 +32,7 @@ export class LinakDeskCard extends LitElement {
     return document.createElement('linak-desk-card-editor');
   }
 
-  public static getStubConfig(_, entities): Partial<LinakDeskCardConfig> {
+  public static getStubConfig(_: HomeAssistant, entities: string[]): Partial<LinakDeskCardConfig> {
       const [desk] = entities.filter((eid) => eid.substr(0, eid.indexOf('.')) === 'cover' && eid.includes('desk'));
       const [height_sensor] = entities.filter((eid) => eid.substr(0, eid.indexOf('.')) === 'sensor' && eid.includes('desk_height'));
       const [moving_sensor] = entities.filter((eid) => eid.substr(0, eid.indexOf('.')) === 'binary_sensor' && eid.includes('desk_moving'));
@@ -54,6 +54,10 @@ export class LinakDeskCard extends LitElement {
   public setConfig(config: LinakDeskCardConfig): void {
     if (!config.desk || !config.height_sensor) {
       throw new Error(localize('common.desk_and_height_required'));
+    }
+
+    if (!config.min_height || !config.max_height) {
+      throw new Error(localize('common.min_and_max_height_required'));
     }
 
     this.config = { ...config };

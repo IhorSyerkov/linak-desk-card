@@ -4,7 +4,8 @@
     "name": "Linak Desk Card",
     "description": "Карточка для керування висотою стола",
     "invalid_configuration": "Непоправна конфігурація",
-    "desk_and_height_required": "Стіл і датчик висоти є обов’язковими"
+    "desk_and_height_required": "Стіл і датчик висоти є обов’язковими",
+    "min_and_max_height_required": "Потрібні налаштування `min_height` та` max_height`"
   },
   "editor": {
     "name": "Ім’я (Необов’язкове)",
@@ -12,8 +13,8 @@
     "height_sensor": "Датчик висоти (Обов’язкове)",
     "connection_sensor": "Датчик підключення (Обов’язкове)",
     "moving_sensor": "Датчик руху (Обов’язкове)",
-    "min_height": "Мінімальна висота",
-    "max_height": "Максимальна висота",
+    "min_height": "Мінімальна висота (Обов’язкове)",
+    "max_height": "Максимальна висота (Обов’язкове)",
     "presets": "Пресети"
   },
   "status": {
