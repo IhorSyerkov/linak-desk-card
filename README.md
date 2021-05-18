@@ -22,8 +22,8 @@ desk: cover.desk
 height_sensor: sensor.desk_height
 moving_sensor: binary_sensor.desk_moving
 connection_sensor: binary_sensor.desk_connection
-minHeight: 62
-maxHeight: 127
+min_height: 62
+max_height: 127
 presets:
   - label: Stay
     target: 108

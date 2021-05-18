@@ -4,7 +4,8 @@
     "name":"Linak Desk Card",
     "description": "Card for controlling table height",
     "invalid_configuration": "Invalid configuration",
-    "desk_and_height_required": "Desk and height sensor are required"
+    "desk_and_height_required": "Desk and height sensor are required",
+    "min_and_max_height_required": "`min_height` and `max_height` settings are required"
   },
   "editor": {
     "name": "Name (Optional)",
@@ -12,8 +13,8 @@
     "height_sensor":"Height Sensor (Required)",
     "connection_sensor":"Connection Sensor (Required)",
     "moving_sensor":"Height Sensor (Required)",
-    "min_height":"Min Height",
-    "max_height":"Max Height",
+    "min_height":"Min Height (Required)",
+    "max_height":"Max Height (Required)",
     "presets":"Presets"
   },
   "status": {
