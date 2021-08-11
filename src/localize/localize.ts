@@ -11,7 +11,6 @@ const languages: any = {
   fr,
 };
 
-
 export function localize(string: string, search = '', replace = ''): string {
   const lang = (localStorage.getItem('selectedLanguage') || 'en').replace(/['"]+/g, '').replace('-', '_');
 
