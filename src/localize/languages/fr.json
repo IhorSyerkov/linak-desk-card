@@ -12,8 +12,8 @@
     "height_sensor":"Capteur de hauteur (Requis)",
     "connection_sensor":"Capteur de connexion (Requis)",
     "moving_sensor":"Capteur de hauteur (Requis)",
-    "min_height":"Hauteur minimale",
-    "max_height":"Hauteur maximale",
+    "min_height":"Hauteur minimale (Requis)",
+    "max_height":"Hauteur maximale (Requis)",
     "presets":"Réglages"
   },
   "status": {
