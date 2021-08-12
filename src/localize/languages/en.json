@@ -12,7 +12,7 @@
     "desk":"Desk Entity (Required)",
     "height_sensor":"Height Sensor (Required)",
     "connection_sensor":"Connection Sensor (Required)",
-    "moving_sensor":"Height Sensor (Required)",
+    "moving_sensor":"Moving Sensor (Required)",
     "min_height":"Min Height (Required)",
     "max_height":"Max Height (Required)",
     "presets":"Presets"
