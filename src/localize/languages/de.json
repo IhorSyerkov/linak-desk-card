@@ -1,20 +1,20 @@
 {
 	"common": {
 		"version": "Version",
-		"name": "Linak Desk Card",
+		"name": "Linak Schreibtisch Karte",
 		"description": "Kontrolliere die Tischhöhe mit dieser Karte",
 		"invalid_configuration": "Fehlerhafte Konfiguration",
 		"desk_and_height_required": "Tisch- und Höhensensor sind erforderlich",
 		"min_and_max_height_required": "min_height und max_height Einstellungen sind erforderlich"
 	},
 	"editor": {
-		"name": "Name (Optional)",
-		"desk": "Tisch Entität (Erforderlich)",
-		"height_sensor": "Height Sensor (Erforderlich)",
-		"connection_sensor": "Verbindungs-Sensor (Erforderlich)",
-		"moving_sensor": "Höhen-Sensor (Erforderlich)",
-		"min_height": "Min Höhe (Erforderlich)",
-		"max_height": "Max Höhe (Erforderlich)",
+		"name": "Name (optional)",
+		"desk": "Tisch Entität (erforderlich)",
+		"height_sensor": "Höhensensor (erforderlich)",
+		"connection_sensor": "Verbindungs-Sensor (erforderlich)",
+		"moving_sensor": "Höhen-Sensor (erforderlich)",
+		"min_height": "Minimale Höhe (erforderlich)",
+		"max_height": "Maximale Höhe (erforderlich)",
 		"presets": "Voreinstellungen"
 	},
 	"status": {
