@@ -1,0 +1,24 @@
+{
+  "common": {
+    "version": "Wersja",
+    "name":"Karta biurka Linak",
+    "description": "Karta do kontrolowania wysokości biurka",
+    "invalid_configuration": "Niepoprawna konfiguracja",
+    "desk_and_height_required": "Sensor biurka oraz wyskości są wymagane",
+    "min_and_max_height_required": "`min_height` oraz `max_height` są wymagane"
+  },
+  "editor": {
+    "name": "Nazwa (Opcjonalna)",
+    "desk":"Encja Biurka (Wymagane)",
+    "height_sensor":"Sensor wysokości biurka (Wymagane)",
+    "connection_sensor":"Sensor połączenia z biurkiem (Wymagane)",
+    "moving_sensor":"Sensor ruchu biurka (Wymagane)",
+    "min_height":"Minimalna wysokość(Wymagane)",
+    "max_height":"Maksymalna wysokość (Wymagane)",
+    "presets":"Profile"
+  },
+  "status": {
+    "connected": "Połączono",
+    "disconnected": "Rozłączono"
+  }
+}
