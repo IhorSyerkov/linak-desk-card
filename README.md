@@ -38,9 +38,9 @@ presets:
 | `type`             | `string`| **Required** | `custom:linak-desk-card`                    |                     |
 | `name`             | `string`| **Optional** | Card name                                   | `` .                |
 | `desk`             | `string`| **Required** | Home Assistant entity ID (cover).           | `none`              |
-| `moving_sensor`    | `string`| **Required** | Home Assistant entity ID (sensor).          | `none`              |
+| `moving_sensor`    | `string`| **Required** | Home Assistant entity ID (binary_sensor).   | `none`              |
 | `connection_sensor`| `string`| **Required** | Home Assistant entity ID (binary_sensor).   | `none`              |
-| `height_sensor`    | `string`| **Required** | Home Assistant entity ID (binary_sensor).   | `none`              |
+| `height_sensor`    | `string`| **Required** | Home Assistant entity ID (sensor).          | `none`              |
 | `max_height`       | `number`| **Required** | Desk height in min position.                | `none`              |
 | `min_height`       | `number`| **Required** | Desk height in max position.                | `none`              |
 | `presets`          | `Array` | **Optional** | Predefined presets                          | `[]`                |
