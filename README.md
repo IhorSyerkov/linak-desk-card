@@ -72,5 +72,5 @@ MIT ©
 
 [home-assistant]: https://www.home-assistant.io/
 [hacs]: https://hacs.xyz
-[hacs-url]: https://github.com/custom-components/hacs
+[hacs-url]: https://github.com/hacs/integration
 [hacs-image]: https://img.shields.io/badge/hacs-default-orange.svg?style=flat-square
