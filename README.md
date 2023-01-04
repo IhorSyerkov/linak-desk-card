@@ -58,6 +58,7 @@ This card supports translations. Please, help to add more translations and impro
 
 - English
 - Українська (Ukrainian)
+- Nederlands (Dutch)
 
 ## Supported models
 
