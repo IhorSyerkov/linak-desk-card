@@ -11,6 +11,7 @@ const languages: any = {
   de,
   fr,
   pl,
+  nl,
 };
 
 export function localize(string: string, search = '', replace = ''): string {
