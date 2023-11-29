@@ -1,0 +1,24 @@
+{
+  "common": {
+    "version": "Verzia",
+    "name":"Linak Desk Card",
+    "description": "Karta na ovládanie výšky stola",
+    "invalid_configuration": "Neplatná konfigurácia",
+    "desk_and_height_required": "Vyžaduje sa stôl a snímač výšky",
+    "min_and_max_height_required": "`min_height` a `max_height` sú potrebné nastavenia"
+  },
+  "editor": {
+    "name": "Názov (voliteľné)",
+    "desk":"Entita pracovnej plochy (povinné)",
+    "height_sensor":"Senzor výšky (vyžadovaný)",
+    "connection_sensor":"Senzor pripojenia (vyžadovaný)",
+    "moving_sensor":"Pohyblivý senzor (povinný)",
+    "min_height":"Minimálna výška (povinné)",
+    "max_height":"Maximálna výška (povinné)",
+    "presets":"Predvoľby"
+  },
+  "status": {
+    "connected": "Pripojené",
+    "disconnected": "Odpojené"
+  }
+}
